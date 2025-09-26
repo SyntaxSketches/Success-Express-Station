@@ -1,4 +1,4 @@
-student_name = "YourName"
+student_name = "Kabijah"
 current_gpa = 3.2
 study_hours = 23
 social_points = 15
@@ -59,6 +59,25 @@ if subject in study_options:
         print("Calculus I piled on the stress, and it didn’t quite click. Rough semester!")
     else:
         print("That subject isn’t on the train schedule. ")
+
+if type(stress_level) is int:
+    print("Stress level tracked correctly ✅")
+
+# Endings
+if current_gpa >= 3.8 and study_hours > 40 and social_points >= 30 and stress_level <= 50:
+    print("You have arrived at Valedictorian Vista: From the balcony of success, your future streches beyond the horizon. Congrats on highest honors.")
+
+elif 3.5 <= current_gpa <= 3.75:
+    print("Welcome to Prestige Point: Where excellence is eanred, despite all the stress, you did it. Congrats")
+
+elif current_gpa >= 3.2 and stress_level <= 25 and social_points < 20:
+    print("Welcome to Easy Street: Where the sun always shining, not a cloud in the sky, like you.  You layed lowed, but made it. Congrats on Dean's List")
+
+elif social_points >= 40 and current_gpa < 3.2:
+    print("You've arrived at Social SkyWalk: You built an amazing social network, but academics crumbled. You still have a chance ")
+
+elif current_gpa < 2.0:
+    print("Welcome to Rebel Rock: The parties never stopped, but you did. You’ve hit academic probation. /You now may sit and think about your actions.")
 
 
 
