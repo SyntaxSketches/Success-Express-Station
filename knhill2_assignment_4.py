@@ -30,6 +30,37 @@ elif choice == "C":
 else:
     print("Invalid choice!")
 
+study_options = ["Calculus I", "Python Programming", "English 101", "Art Appreciation"]
+print("\nChoose a subject to focus your study on:")
+print(", ".join(study_options))
+subject = input("Your choice: ")
+
+if subject in study_options:
+    if subject == "Python Programming" and current_gpa < 3.0:
+        current_gpa += 0.5
+        study_hours += 10
+        print("Your GPA jumped thanks to coding practice.")
+    elif subject == "English 101":
+        social_points += 10
+        stress_level -= 5
+        print("You connected with classmates in this course!")
+    elif subject == "Art Appreciation":
+        study_hours -= 5
+        stress_level += 10
+        current_gpa -= 0.1
+        print("What a useless class. Extra projects drained your time and GPA slipped.")
+    elif subject == "Calculus I" and (stress_level < 40 and current_gpa >= 3.0):
+        stress_level += 15
+        current_gpa += 0.3
+        print("It was tough but rewarding, you’re on track for academic honors.")
+    elif subject == "Calculus I" and (stress_level >= 40 or current_gpa < 3.0):
+        stress_level += 25
+        current_gpa -= 0.2
+        print("Calculus I piled on the stress, and it didn’t quite click. Rough semester!")
+    else:
+        print("That subject isn’t on the train schedule. ")
+
+
 
 
 
