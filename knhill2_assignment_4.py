@@ -4,7 +4,7 @@ study_hours = 23
 social_points = 15
 stress_level = 20
 
-print("🚂 Welcome to the Success Express Station!")
+print("Welcome to the Success Express Station!")
 print(f"Student: {student_name}")
 print(f"Starting GPA: {current_gpa}, Study Hours: {study_hours}, Social Points: {social_points}, Stress: {stress_level}")
 #blah blah blah step 2
@@ -61,7 +61,7 @@ if subject in study_options:
         print("That subject isn’t on the train schedule. ")
 
 if type(stress_level) is int:
-    print("Stress level tracked correctly ✅")
+    print("Stress level tracked correctly")
 
 # Endings
 if current_gpa >= 3.8 and study_hours > 40 and social_points >= 30 and stress_level <= 50:
