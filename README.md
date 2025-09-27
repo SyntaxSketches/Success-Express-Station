@@ -10,6 +10,7 @@ The final GPA (calculated from the 4 course grades) is used to evaluate which en
 
   Notes for graders / testers
   Script file: `knhill2_assignment_4.py`
-  For automated testing, default choices are set as variables at the top of the script (so no interactive input is required). #bc zybooks sucks. 
+  For automated testing, default choices are set as variables at the top of the script (so no interactive input is required). 
+  bc #zybookssucks. 
   All original messaging and flavor text from the prompt have been preserved.
   The code demonstrates `not in`, `is not`, and `not` usage in valid contexts
