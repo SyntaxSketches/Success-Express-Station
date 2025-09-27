@@ -1,6 +1,5 @@
 
-# Help/Guidance: Used ChatGPT (GPT-5-mini) for debugging syntax issues, 
-#                grade calculation logic, and suggestions for branching and endings.
+# Help/Guidance: Used ChatGPT (GPT-5-mini) for debugging syntax issues, issues in general
 
 git add knhill2_assignment_4.py README.md
 git commit -m "Initial commit: foundation code and variables"
