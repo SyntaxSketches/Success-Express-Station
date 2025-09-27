@@ -1,11 +1,6 @@
-# kabijah_assignment_3.py
-# Assignment 3 - Success Express Semester
-# Author: Kabijah
-# Purpose: A semester sim that runs 4 courses and produces an ending.
-# - Keeps original wording/dialogue.
-# - Uses a multi-course grade system that is hidden until final GPA reveal.
-# - Demonstrates correct use of "not in", "is not", and "not" operators.
-# - Contains comments and readable structure for grading.
+
+# Help/Guidance: Used ChatGPT (GPT-5-mini) for debugging syntax issues, 
+#                grade calculation logic, and suggestions for branching and endings.
 
 git add knhill2_assignment_4.py README.md
 git commit -m "Initial commit: foundation code and variables"
@@ -78,7 +73,7 @@ if choice not in ["Light Load", "Standard Load", "Heavy Load"]:
 # We'll run all four courses in order (Python, English 101, Calculus I, Art Appreciation).
 # Each course uses your original text and effects, but also appends a numeric grade.
 
-git add _assignment_3.py
+git add knhill2_assignment_4.py
 git commit -m "Course planning: course load and subject flows"
 
 
