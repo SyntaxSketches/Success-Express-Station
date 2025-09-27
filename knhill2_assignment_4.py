@@ -7,6 +7,9 @@
 # - Demonstrates correct use of "not in", "is not", and "not" operators.
 # - Contains comments and readable structure for grading.
 
+git add knhill2_assignment_4.py README.md
+git commit -m "Initial commit: foundation code and variables"
+
 student_name = "Kabijah"
 # Starting values (can be changed for testing different outcomes)
 current_gpa = 2.9
@@ -75,6 +78,10 @@ if choice not in ["Light Load", "Standard Load", "Heavy Load"]:
 # We'll run all four courses in order (Python, English 101, Calculus I, Art Appreciation).
 # Each course uses your original text and effects, but also appends a numeric grade.
 
+git add _assignment_3.py
+git commit -m "Course planning: course load and subject flows"
+
+
 # --- Course 1: Python ---
 print("\nFirst course: Python Programming")
 # Keep your original logic but applied in multi-course flow:
@@ -126,6 +133,9 @@ social_points += 8
 print("Extra projects drained your time and GPA slipped.")
 # Hidden grade calculation for Art (gpa_boost = -1)
 course_grades.append(assign_grade(study_hours, stress_level, -1))
+
+git add knhill2_assignment_4.py
+git commit -m "Study strategy: mid-semester choices & grade calc"
 
 # ================== Mid-semester choices (kept original) ==================
 print("\nDo you want to go on a Coffee Run?")
@@ -211,6 +221,10 @@ else:
             total_points += grade
             total_courses += 1
     final_gpa = total_points / total_courses if total_courses > 0 else current_gpa
+
+
+git add knhill2_assignment_4.py README.md
+git commit -m "Final assessment: final GPA calc & multiple endings"
 
 # Final Stop (original wording)
 print("\nFinal Stop: Checking your progress...")
