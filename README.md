@@ -1,6 +1,6 @@
 # Success-Express-Station
 
-"Success Express Station" is a small semester simulation game. The player navigates course load choices, attends four courses (Python, English 101, Calculus I, Art Appreciation), and makes study/social choices. Each course produces a hidden numeric grade; the final GPA is an average of those grades and determines one of multiple endings.
+Success Express Station is a small semester simulation game. The player will navigate course load choices, attends four courses (Python, English 101, Calculus I, Art Appreciation), and makes study/social choices. Each course produces a hidden numeric grade; the final GPA is an average of those grades and determines one of multiple endings.
 
 Branching logic
 Course load influences study hours / stress / social stats.
